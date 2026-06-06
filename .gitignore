@@ -1,0 +1,30 @@
+# Python cache & compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Configuration & Secrets
+.env
+
+# Application Logs & DBs
+logs/
+*.jsonl
+
+# Build and Packaging
+build/
+dist/
+*.egg-info/
+adversarial_population_sandbox.egg-info/
+
+# OS Specific
+.DS_Store
+Thumbs.db
